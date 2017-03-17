@@ -17,6 +17,7 @@ import com.boke.imiloan.base.ActivityCollector;
  * E-mail:510278658@qq.com
  */
 public class LaunchActivity extends Activity {
+    private int i = -1000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
