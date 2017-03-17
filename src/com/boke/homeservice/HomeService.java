@@ -29,9 +29,11 @@ import java.util.Map;
  * 首页相关插件
  */
 public class HomeService extends CordovaPlugin {
+
 	CallbackContext callbackContext;
 	private static final String TAG = HomeService.class.getSimpleName();
     private HomePresenter homePresenter;
+	private int i=0;
 
 	public void initialize(CordovaInterface cordova, CordovaWebView webView) {
 		super.initialize(cordova, webView);
