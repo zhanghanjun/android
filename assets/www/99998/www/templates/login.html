@@ -1,0 +1,31 @@
+<!-- 标题 -->
+<ion-view view-title="用户登陆" class="products" hide-back-button="true" >
+    <ion-content class="bg_353535" scroll="false">
+      <div class="content_scrool">
+    <div class="content">
+       <div id="content">
+      </div>
+        <div class="down_content" style="margin-top:50px">
+             <div class="content_table">
+                <input type="text" placeholder="手机号码" class="login_textinput" accept="right" id="phonenumber" onkeyup="(this.v=function(){this.value=this.value.replace(/[^0-9-]+/,'');}).call(this)"  >
+                <div class="usericon"></div>
+             </div>
+             <div class="content_table">
+                <input type="password" placeholder="密码" class="login_textinput" id="password">
+                <div class="phoneicon"></div>
+             </div>
+             <div id="forget" class="login_forget">
+                <u  ng-click="forget()">忘记密码</u>
+             </div>
+        </div>
+        </div>
+    </div>
+    <div class="submit_button" id="login">
+        <div class="label_submit">登录</div>
+    </div>
+    <div class="submit_button" id="register" style="margin-top:10px">
+        <div class="label_submit">新用户注册</div>
+    </div>
+    </ion-content>
+</ion-view>
+<script src="../js/controllers/login.js"></script>

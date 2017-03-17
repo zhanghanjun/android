@@ -1,0 +1,40 @@
+ <!-- 标题 -->
+<ion-view view-title="信用卡申请" class="products" hide-back-button="false" >
+ <!-- 左边返回 -->
+<ion-nav-buttons side="left">
+     <img ng-src="{{'nav-btn-backblue'| img_url}}" ng-click="cardAapply_back()" class="cardApply_path_img">
+</ion-nav-buttons>
+<ion-content class="bg_353535" scroll="false">
+<!-- 全局div -->
+  <div class="cardApply_div">
+    <!-- 信用卡div -->
+    <div class="cardApply_list">
+      <div class="cardApply_img">
+        <img ng-src="{{cardInfoImg}}" class="cardApply_card">
+      </div>
+      <div class="cardApply_list_right">
+        <div class="cardApply_list_right_top">{{productname}}</div>
+          <div class="cardApply_list_right_bottom">
+            <div class="cardApply_list_right_bottom_left">{{productlabel}}</div>
+              <div class="cardApply_list_right_bottom_right"><div class="cardApply_color">{{amount}}人</div>本月申请</div>
+          </div>
+      </div>
+    </div>
+    <!-- 粗线 -->
+    <div class="cardApply_bigline"></div>
+    <!-- 申请条件 -->
+    <div class="cardApply_text"><strong>申请条件</strong></div>
+    <!-- 分割线 -->
+    <div class="cardApply_line"></div>
+    <!-- 信用卡介绍 -->
+    <div class="cardAapply_content_top">
+      {{productsummary}}
+    </div>
+     <!-- 立即申请按钮 -->
+    <div class="cardApply_submit_button" id="apply">立即申请
+    </div>
+    <!-- 底部粗线 -->
+    <div class="cardApply_line_bottom"></div>
+  </div>
+    </ion-content>
+</ion-view>

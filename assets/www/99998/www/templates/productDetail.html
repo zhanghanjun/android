@@ -1,0 +1,59 @@
+<!-- 标题 -->
+<ion-view view-title="贷款产品信息" class="products" id="productDetail" hide-back-button="false">
+    <!-- 自定义返回键 -->
+    <ion-nav-buttons side="left">
+        <img ng-src="{{'nav-btn-backblue'| img_url}}" ng-click="cardAapply_back()" class="cardApply_path_img">
+    </ion-nav-buttons>
+
+    <ion-nav-buttons side="right">
+        <!-- <button class="button groupBuyCheck_button title_right_button" ng-click="groupBuyCheck_show()">
+            <img ng-src="{{'nav-btn-code'| img_url}}" class="groupBuyCheck_path_img">
+        </button> -->
+    </ion-nav-buttons>
+    <ion-content class="bg_353535" scroll="false">
+
+        <ion-scroll zooming="false" id="productDetail_scroll" direction="y"
+                    class="productDetail_scroll">
+            <div class="productDetail_content" id="productDetail_content">
+                <div class="productDetail_list">
+                    <div class="productDetail_squre"></div>
+                    <div class="productDetail_list_right">
+                        <div class="productDetail_list_right_top">{{productName}}</div>
+                        <div class="productDetail_list_right_bottom">
+                            <div class="productDetail_list_right_bottom_left">{{saledcount}}人申请</div>
+                            <!--<div class="productDetail_list_right_bottom_right">{{saledcount}}%月费率</div>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="productDetail_range">
+                    <div class="productDetail_range1">
+                        <div class="productDetail_range_text">贷款范围</div>
+                        <div class="productDetail_range_num">¥{{minLoan}}-{{maxLoan}}</div>
+
+                    </div>
+                    <div class="productDetail_range2">
+                        <div class="productDetail_range_text">期限范围</div>
+                        <div class="productDetail_range_num">{{minRepay}}-{{maxRepay}}个月</div>
+                    </div>
+                    <div class="productDetail_range3">
+                        <div class="productDetail_range_text">利率范围</div>
+                        <div class="productDetail_range_num">{{minRate}}%-{{maxRate}}%</div>
+                    </div>
+                </div>
+                <div class="productDetail_apply">
+                    <div class="productDetail_apply_title">申请条件:</div>
+                    <div class="productDetail_apply_content">{{appCondition}}</div>
+                </div>
+                <div class="productDetail_statement">
+                    <div class="productDetail_apply_title">需要材料:</div>
+                    <div class="productDetail_apply_content">{{auritInstruction}}</div>
+                </div>
+                <div class="productDetail_intro">
+                    <div class="productDetail_apply_title">产品介绍:</div>
+                    <div class="productDetail_apply_content">{{productsummary}}</div>
+                </div>
+            </div>
+        </ion-scroll>
+        <div class="productDetail_footer">立即申请</div>
+    </ion-content>
+</ion-view>

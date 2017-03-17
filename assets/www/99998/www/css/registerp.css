@@ -1,0 +1,140 @@
+
+.registerp_content {
+    height: 600px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 100px;
+}
+
+.registp_div {
+    margin-right: 5%;
+    margin-left: 5%;
+    border-bottom: 1px solid #ececec;
+    /*padding-top: 20px;*/
+    height: 40px;
+
+}
+
+.registerp_p {
+    font-family: FangSong;
+    font-size: 17px;
+    padding-top: 10px;
+
+}
+
+.registerp_input {
+    height: 40px;
+    font-family: FangSong;
+    padding-top: 0px;
+    border: none;
+    margin-top: 6px;
+}
+
+input[type="tel"].registerp_input,input[type="password"].registerp_input,input[type="number"].registerp_input{
+    font-size: 17px;
+}
+.registerp_name {
+    display: inline-block;
+}
+
+.registerp_reg {
+    margin-right: 7%;
+    margin-left: 7%;
+    height: 45px;
+    margin-top: 39px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background: #fe670e;
+    font-size: 20px;
+    padding-top: 14px;
+    color: white;
+}
+
+.registerp_yzm {
+    margin-top: 5px;
+    height: 30px;
+    width: 110px;
+    float: right;
+    font-size: 14px;
+    background: #91a7ff;
+    font-family: FangSong;
+    padding-left: 5px;
+    padding-top: 4.5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#registerp_yam1 {
+    height: 40px;
+    font-size: 17px;
+    font-family: FangSong;
+}
+
+.registerp_head {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 3;
+    background: white;
+    position: fixed;
+    top: 0px;
+    padding-bottom: 50px;
+
+}
+
+.registerp_return {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+
+}
+
+input {
+    border: none;
+    background: none;
+}
+
+.registerp_foot {
+    margin-right: 7%;
+    margin-left: 7%;
+    height: 45px;
+    padding-top: 35px;
+}
+
+.registerp_foot_2 {
+    width: 120px;
+    color: #5c6bc2;
+
+}
+
+.registerp_foot_1 {
+    width: 80px;
+    float: right;
+    padding-left: 20px;
+
+}
+/*输入提示文字样式*/
+.registerp_title{
+    height:40px;
+    width:80px;
+    display: inline-block;
+}
+/*是否显示密码图标外层div样式*/
+.registerp_yan{
+    width: 30px;
+    height: 30px;
+    float: right;
+    padding-right: 5px;
+    padding-top: 15px;
+}
+/*是否显示密码图标图片样式*/
+.registerp_yan img{
+    width: 22px;
+    height: 15px;
+}
+

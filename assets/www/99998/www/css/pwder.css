@@ -1,0 +1,41 @@
+.pwder_content{
+  height: 600px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 150px;
+}
+.pwder_tt{
+	margin-right: 37%;
+	margin-left: 37%;
+	height: 90px;
+}
+.pwder_img{
+	height: 90px;
+	width: 90px;
+}
+
+.pwder_text{
+	margin-right: 28%;
+	margin-left: 28%;
+	height: 45px;
+	margin-top: 13px;
+	border:1px solid #ececec;
+	border-radius: 4px;
+	font-weight:bold;
+}
+
+.pwder_div{
+	margin-right: 20%;
+	margin-left:20%;
+	height: 60px;
+	margin-top: 30px;
+	border:1px solid #ececec;
+	border-radius: 4px;
+	background: #1e90ff;
+	text-align: center;
+	padding-top: 21px;
+	font-size: 19px;
+	color: white;
+
+}

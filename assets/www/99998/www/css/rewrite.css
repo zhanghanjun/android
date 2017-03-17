@@ -1,0 +1,121 @@
+/* 弹出框提示的复写 */
+.popup-buttons{
+	padding:0;
+}
+.popup-buttons .button{
+	margin-right:0px;
+	height: 44px;
+}
+.popup-buttons{
+	min-height: 44px;
+}
+/*弹出框的框体高度*/
+.popup-body{
+	height: 94px;
+}
+/*弹出框的确认按钮的样式*/
+.button.button-positive{
+	background-color: #50acf2;
+	border-color:#50acf2;
+	border-radius: 0 0 8px 0;
+}
+.button.button-positive.activated{
+	background-color: #4A90E2;
+}
+.button{
+	color: #50acf2;
+	border-color:#50acf2;
+	BORDER-BOTTOM-STYLE: none; 
+	BORDER-RIGHT-STYLE: none; 
+	BORDER-LEFT-STYLE: none; 
+	 }
+/*弹出框的弹出位置*/
+.pop-div{
+	margin-top:30px;
+}
+/*弹出框的四边角磨角设置*/ 
+.popup{
+	border-radius:8px;
+}
+.popup-buttons .button{
+	border-radius: 0 0 0 8px;
+}
+.popup-buttons .button:last-child{
+    border-radius: 0 0 8px 0;
+}
+.popup-head{
+	border-bottom:none;
+}
+
+/*导航栏的回退键设置自定义的背景图片*/
+.ion-ios-arrow-back:before
+{
+	background:url(../img/public/back.png);
+	color: transparent;
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+.title.title-center.header-item{
+  	left:0px;
+}
+
+/* 错误警告提示 */
+#toast-container > div{
+ 	height: 92px;
+	width: 210px;
+	border-radius:8px;
+	background-color: black !important;
+	background: black !important;
+	opacity:1;
+    padding: 0 !important;
+    line-height: 92px;
+}
+.toast.toast-warning{
+	background: black !important;
+}
+/*提示警告的样式*/
+#toast-container.toast-center > div, #toast-container.toast-top-center > div, #toast-container.toast-bottom-center > div{
+	margin-top: 10px;
+}
+.bg{
+	top:20px;
+}
+/*提示警告的样式*/
+#toast-container * {
+    font-size: 20px;
+    margin-top: -4px;
+    margin-left: 3px;
+}
+/*导航栏字体大小*/
+.bar.bar-stable .title{
+ 	font-size: 20px;
+}
+/* 标题栏右侧按钮样式 */
+.bar-stable .button {
+	border-color: #bcbcbc;
+	background-color: #bcbcbc;
+}
+/* 标题栏右侧按钮点击效果 */
+.bar-stable .button.activated {
+	border-color: #303030;
+	background-color: #303030;
+	opacity: 0.7;
+}
+/* 标题栏底部阴影效果 */
+.bar.bar-stable{
+	background: #bcbcbc;
+	height: 44px;
+}
+/*不显示滚动条*/
+.scroll-bar{
+	width:0;
+}
+.scroll-content{
+	background-color: white;
+}

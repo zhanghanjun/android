@@ -1,0 +1,92 @@
+/* Empty. Add your own CSS if you like */
+@charset "UTF-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+/*登录输入框样式*/
+.register_input{
+	font-size: 22px !important;
+	margin-top: 50px;
+	width:200px;
+	background:transparent;
+}
+.content_scrool{
+  
+	width: 101%;
+	overflow-x: hidden;
+    overflow-y: auto;
+}
+.content{
+	margin-top:20px;
+}
+.down_content{
+	font-size: 20px;
+	/*margin-top: 30px;*/
+	margin-left: 13%;
+	margin-right: 20px;
+	margin-bottom: 100px;
+	margin-right:13%;
+	/*border-top-left-radius: 8px;
+	border-top-right-radius: 8px;*/
+}   
+.content_table{
+	height: 35px;
+	margin-top: 40px;
+	border-bottom:1px solid;
+	border-color:#bcbcbc;
+}
+.register_textinput{
+	font-size:22px;
+	height: 40px;
+	width: 100%;
+	border: none;
+	padding-left:13% !important;
+	text-align:right;
+}
+.register_name{
+	font-size: 21px;
+    position: relative;
+    height: 25px;
+    width: 100px;
+    margin-top: -23px;
+    left: 3%;
+}
+.register_a{
+	font-size: 16px;
+	color: blue;
+    position: relative;
+    top: -25px;
+    right: -68%;
+}
+.submit_button{
+	margin-left: 15%;
+	margin-right:15%;
+	margin-top:-30px;
+	height: 50px;
+	background-color: #ec6941;
+	text-align: center;
+	font-size: 22px;
+	color: white;
+	border-radius: 8px;
+}
+.send_button{
+	margin-left: 65%;
+	margin-right:2%;
+	margin-top:-27px;
+	height: 70%;
+	background-color: #ec6941;
+	text-align: center;
+	font-size: 4px;
+	color: white;
+	border-radius: 8px;
+}
+.label_submit{
+	padding-top: 5%;
+	
+}
+}
+

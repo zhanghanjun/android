@@ -1,0 +1,71 @@
+<!-- 标题 -->
+<ion-view view-title=" " class="" hide-back-button="true">
+    <div class="loginp_head">
+        登录
+        <div class="loginp_return" ng-click="close()">
+            <img ng-src="{{'login-closed'| img_url}}" alt=""
+                 style="height:20px;width:20px;">
+
+        </div>
+    </div>
+    <div class="">
+        <div class="loginp_content">
+            <div class="loginp_phone_pwd">
+                <div class="loginp_div_img">
+                    <img ng-src="{{'login-tel'| img_url}}" class="loginp_img"
+                         style="width:20px;height:30px;">
+                </div>
+                <input id="phone" type="tel"
+                       style="height:50px;width:200px;float:right;font-size:14px;font-family: FangSong;color:#072944;padding-top:10px;"
+                       maxlength="11" placeholder="请输入手机号">
+            </div>
+            <!-- <hr class="loginp_hr"> -->
+            <!--  <p style="height:10px"></p> -->
+            <div class="loginp_phone_pwd1">
+                <div class="loginp_div_img">
+                    <img ng-src="{{'login-pw'| img_url}}" class="loginp_img"
+                         style="width:20px;height:20px;">
+                </div>
+
+                <div class="loginp_1">
+                    <div class="loginp_yan" ng-click="show()">
+                        <img ng-src="{{showPwd | img_url}}" ng-model="showPwd"
+                             style="width:20px;height:14px;">
+                    </div>
+                    <div class="loginp_2">
+                        <input type="password"
+                               style="height:50px;width:200px;float:right;font-size:14px;font-family: FangSong ;padding-top:5px;color:#072944;"
+                               placeholder="密码" id="password">
+                    </div>
+                </div>
+                <div class="loginp_message">
+                    <div ng-hide="imgHide" ng-model="imgHide">
+                        <img ng-src="{{'login-tel'| img_url}}" class="loginp_img loginp_message_img">
+                    </div>
+                    <div class="loginp_2">
+                        <p class="loginp_message_info" id="loginp_message">{{loginp_message}}</p>
+                    </div>
+                </div>
+            </div>
+            <!--  <hr class="loginp_hr"> -->
+            <!-- <div class="loginp_dd" >
+              <a href="index.html#/seek" style="color:#00FA9A"> 忘记密码</a>
+            </div> -->
+
+            <div class="loginp_log_re" id="loginp_log_sure">
+                登录
+            </div>
+            <p style="height:10px"></p>
+
+            <div class="loginp_foot">
+                <div class="loginp_foot_1" ng-click="seek()">
+                    忘记密码
+                </div>
+                <div class="loginp_foot_2" ng-click="reg()">
+                    注册新用户
+                </div>
+            </div>
+        </div>
+    </div>
+</ion-view>
+

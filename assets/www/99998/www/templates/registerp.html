@@ -1,0 +1,70 @@
+<ion-view view-title="用户注册" class="" hide-back-button="true">
+    <div class="registerp_head">
+        注册
+        <div class="registerp_return">
+            <img src="../../99998/www/img/public/login-closed.png" alt=""
+                 style="height:20px;width:20px;">
+        </div>
+    </div>
+    <div class="">
+        <div class="registerp_content">
+            <div class="registp_div">
+
+                <div class="registerp_name">
+                    <input type="tel" maxlength="11" placeholder="请输入姓名" ng-model="name" id="registerp_input" style="border:none;" class="registerp_input">
+                </div>
+                <div style="height:40px;width:100px;">
+                    <p class="registerp_p">姓名</p>
+                </div>
+            </div>
+            <div class="registp_div">
+                <div class="registerp_name">
+                    <input type="tel" id="registerp_phone" class="inp" maxlength="11" placeholder="输入有效的手机号" class="registerp_input"
+                           ng-model="phone" onkeyup="(this.v=function(){this.value=this.value.replace(/[^0-9-]+/,'');}).call(this)">
+                </div>
+                <div style="height:40px;width:100px;">
+                    <p class="registerp_p">手机号</p>
+                </div>
+            </div>
+            <div class="registp_div">
+                <div class="registerp_yzm" ng-click="sendCheckNum()">
+                    <a href="" style="color:#ffffff" style="heigth:30px;">
+                        发送验证码
+                    </a>
+                </div>
+                <div style="width:100px;height:40px">
+                    <input type="tel" maxlength="11" ng-model="checkNum" placeholder="验证码" id="registerp_yam1">
+                </div>
+            </div>
+
+            <div class="registp_div">
+                <div class="registerp_name">
+                    <input type="password" ng-model="password" maxlength="11" placeholder="" id="registerp_pwd" class="registerp_input">
+                </div>
+                <div style="height:40px;width:100px;">
+                    <p class="registerp_p">密码</p>
+                </div>
+            </div>
+            <!-- <div class="registp_div">
+              <div class="registerp_name">
+                 <input type="tel"  maxlength="11" placeholder="" id="registerp_input">
+               </div>
+              <div style="height:70px;width:100px;">
+                 <p class="registerp_p">重复密码</p>
+               </div>
+            </div> -->
+            <div class="registerp_reg" ng-click="submit()">
+                提交注册
+            </div>
+            <div class="registerp_foot">
+                <div class="registerp_foot_1" ng-click="seek()">
+                    忘记密码
+                </div>
+                <div class="registerp_foot_2" ng-click="loginp()">
+                    已有账号，去登录
+                </div>
+            </div>
+
+        </div>
+    </div>
+</ion-view>

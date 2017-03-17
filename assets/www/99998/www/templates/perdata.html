@@ -1,0 +1,148 @@
+<!-- 标题 -->
+<ion-view view-title="个人信息" class="products" hide-back-button="false">
+    <!-- 自定义返回键 -->
+    <ion-nav-buttons side="left">
+        <img ng-src="{{'nav-btn-backblue'| img_url}}" ng-click="cardAapply_back()" class="cardApply_path_img">
+    </ion-nav-buttons>
+
+    <ion-nav-buttons side="right">
+        <!-- <button class="button groupBuyCheck_button title_right_button" ng-click="groupBuyCheck_show()">
+            <img ng-src="{{'nav-btn-code'| img_url}}" class="groupBuyCheck_path_img">
+        </button> -->
+    </ion-nav-buttons>
+    <ion-content class="bg_353535" scroll="true" id="perdata_scroll">
+        <div class="perdata_content">
+            <div class="perdata_div_1">
+                <div class="perdata_div">
+                    <div class="perdata_div_name" style="padding-left:40px;">
+                        {{memberName}}
+                    </div>
+                    <div class="perdata_div_q">
+                        真实姓名
+                    </div>
+                </div>
+                <div class="perdata_div perdata_div_down">
+                    <div class="perdata_div_name">
+                        {{idCardNo}}
+                    </div>
+                    <div class="perdata_div_q">
+                        身份证号码
+                    </div>
+                </div>
+
+            </div>
+            <div class="perdata_div_2">
+                <div class="perdata_div">
+                    <div class="perdata_img">
+                        <img src="../../99998/www/img/public/rb-h.png"
+                             style="width:50px;height:25px;" ng-if="isOnduty==0" ng-click="isonduty(isOnduty)">
+                        <img src="../../99998/www/img/public/rb-n.png"
+                             style="width:50px;height:25px;" ng-if="isOnduty==1" ng-click="isonduty(isOnduty)">
+                    </div>
+                    <div class="perdata_div_q">
+                        是否在职
+                    </div>
+                </div>
+                <div class="perdata_div">
+                    <div class="perdata_img">
+                        <img src="../../99998/www/img/public/rb-h.png"
+                             style="width:50px;height:25px;" ng-if="isIncome==0" ng-click="isincome(isIncome)">
+                        <img src="../../99998/www/img/public/rb-n.png"
+                             style="width:50px;height:25px;" ng-if="isIncome==1" ng-click="isincome(isIncome)">
+                    </div>
+                    <div class="perdata_div_q">
+                        能否提供收入证明?
+                    </div>
+                </div>
+                <div class="perdata_div">
+                    <div class="perdata_img">
+                        <img src="../../99998/www/img/public/rb-h.png"
+                             style="width:50px;height:25px;" ng-if="isBankWater==0" ng-click="isbankWater(isBankWater)">
+                        <img src="../../99998/www/img/public/rb-n.png"
+                             style="width:50px;height:25px;" ng-if="isBankWater==1" ng-click="isbankWater(isBankWater)">
+                    </div>
+                    <div class="perdata_div_q">
+                        能否提供银行流水?
+                    </div>
+                </div>
+                <div class="perdata_div" style="border:none;">
+                    <div class="perdata_img">
+                        <img src="../../99998/www/img/public/rb-h.png"
+                             style="width:50px;height:25px;" ng-if="isSecurity==0" ng-click="issecurity(isSecurity)">
+                        <img src="../../99998/www/img/public/rb-n.png"
+                             style="width:50px;height:25px;" ng-if="isSecurity==1" ng-click="issecurity(isSecurity)">
+                    </div>
+                    <div class="perdata_div_q" style="border:none;">
+                        是否有本地社保?
+                    </div>
+                </div>
+            </div>
+            <div class="perdata_div_1">
+                <div class="perdata_div">
+                    <div class="perdata_img">
+                        <img src="../../99998/www/img/public/rb-h.png"
+                             style="width:50px;height:25px;" ng-if="isCar==0" ng-click="iscar(isCar)">
+                        <img src="../../99998/www/img/public/rb-n.png"
+                             style="width:50px;height:25px;" ng-if="isCar==1" ng-click="iscar(isCar)">
+                    </div>
+                    <div class="perdata_div_q">
+                        是否有车?
+                    </div>
+                </div>
+                <div class="perdata_div" style="border:none;">
+                    <div class="perdata_img">
+                        <img src="../../99998/www/img/public/rb-h.png"
+                             style="width:50px;height:25px;" ng-if="isHouse==0" ng-click="ishouse(isHouse)">
+                        <img src="../../99998/www/img/public/rb-n.png"
+                             style="width:50px;height:25px;" ng-if="isHouse==1" ng-click="ishouse(isHouse)">
+                    </div>
+                    <div class="perdata_div_q">
+                        是否有房?
+                    </div>
+                </div>
+            </div>
+            <div class="perdata_div_1">
+                <div class="perdata_div">
+                    <div class="perdata_img">
+                        <img src="../../99998/www/img/public/rb-h.png"
+                             style="width:50px;height:25px;" ng-if="isContacted==0" ng-click="iscontacted(isContacted)">
+                        <img src="../../99998/www/img/public/rb-n.png"
+                             style="width:50px;height:25px;" ng-if="isContacted==1" ng-click="iscontacted(isContacted)">
+                    </div>
+                    <div class="perdata_div_q">
+                        同意推荐给信贷经理
+                    </div>
+                </div>
+                <div class="perdata_div">
+                    <div class="perdata_img">
+                        <img src="../../99998/www/img/public/rb-h.png"
+                             style="width:50px;height:25px;" ng-if="isLoan==0" ng-click="isloan(isLoan)">
+                        <img src="../../99998/www/img/public/rb-n.png"
+                             style="width:50px;height:25px;" ng-if="isLoan==1" ng-click="isloan(isLoan)">
+                    </div>
+                    <div class="perdata_div_q">
+                        我想贷款?
+                    </div>
+                </div>
+
+                <div class="perdata_div">
+                    <div class="perdata_img">
+                        <img src="../../99998/www/img/public/rb-h.png"
+                             style="width:50px;height:25px;" ng-if="isCreditcard==0"
+                             ng-click="iscreditcard(isCreditcard)">
+                        <img src="../../99998/www/img/public/rb-n.png"
+                             style="width:50px;height:25px;" ng-if="isCreditcard==1"
+                             ng-click="iscreditcard(isCreditcard)">
+                    </div>
+                    <div class="perdata_div_q">
+                        我想办信用卡?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+    <div class="productDetail_footer" ng-click="perdataSumbit()">
+        立即提交
+    </div>
+</ion-view>
+ 

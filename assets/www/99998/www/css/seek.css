@@ -1,0 +1,85 @@
+.seek_content{
+  height: 600px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 100px;
+}
+
+.seek_div{
+	margin-left: 7%;
+	margin-right: 7%;
+	height: 60px;
+	border-bottom: 1px solid #ececec;
+	padding-top: 25px;
+
+}
+.seek_go{
+	margin-left: 7%;
+	margin-right: 7%;
+	height: 45px;
+	margin-top: 150px;
+	border: 1px solid #ececec;
+	border-radius: 8px;
+	background: #fe670e;
+	text-align: center;
+	padding-top: 13px;
+	font-size: 16px;
+	color: white;
+
+}
+/*#seek_input{
+	width: 150px;
+	height: 58px;
+	padding-top: 17px;
+}*/
+.seek_yan{
+	height: 60px;
+	float: right;
+}
+
+#seek_inp{
+	padding-bottom: 10px;
+}
+
+.seek_head{
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	line-height: 3;
+	background: white;
+	position: fixed;
+	top: 0px;
+	padding-bottom: 50px;
+	 
+}
+
+.seek_div1{
+	margin-left: 7%;
+	margin-right: 7%;
+	height: 47px;
+	border-bottom: 1px solid #ececec;
+	padding-top:7px;
+}
+
+.seek_yan{
+  margin-top: 5px;
+  height: 30px;
+  width: 40%;
+  float: right;
+  font-size: 14px;
+  background: #91a7ff;
+  font-family: FangSong;
+  padding-left: 5px;
+  padding-top: 4.5px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.seek_aa{
+	height: 40px;
+	width: 40%;
+	/*border: 1px solid #ececec;*/
+	padding-top: 8px;
+}

@@ -1,0 +1,137 @@
+<!-- 标题 -->
+<ion-view view-title="贷款" class="products" hide-back-button="true" >
+    <!-- 自定义返回键 -->
+    <!--<smpos-back back-type=1></smpos-back>-->
+    <ion-nav-buttons side="left">
+           <img ng-src="{{'nav-btn-back'| img_url}}" class="productList_list_back">
+     </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <!-- <button class="button groupBuyCheck_button title_right_button" ng-click="groupBuyCheck_show()">
+          
+        </button> -->
+          <img ng-src="{{'icon-area'| img_url}}" class="productList_list_position">
+          <label style="color:white;font-size:18px;padding-right:10px;padding-top:2px;padding-left:5px;">苏州</label>
+    </ion-nav-buttons>
+    <ion-content class="bg_353535" scroll="false">
+        <div class="productList_content" id="productList_content">
+          <div class="productList_heads">
+ 
+              <div class="productList_head_left">
+                <label ng-bind="productList_money" id="productList_money"></label> <img ng-src="{{'img-up'| img_url}}" class="productListMoney" id="productListMoney">
+              </div>
+              <div class="productList_head_right">
+                <label style="margin-left:10%" ng-bind="productList_time" id="productList_time"></label><img ng-src="{{'img-up'| img_url}}" class="productListMonth" >
+            </div>
+          </div>
+          <div id="productList_mask"></div>
+          <div class="productList_money">
+            <div class="productList_money_child">不限贷款金额</div>
+            <div class="productList_money_child">2000</div>
+            <div class="productList_money_child">5000</div>
+            <div class="productList_money_child">15000</div>
+            <div class="productList_money_child">20000</div>
+            <div class="productList_money_child">30000</div>
+            <div class="productList_money_child">40000</div>
+            <div class="productList_money_child">45000</div>
+            <div class="productList_money_child">50000</div>
+          </div>
+          <div class="productList_time">
+            <div class="productList_time_child">不限贷款分期</div>
+            <div class="productList_time_child">1期</div>
+            <div class="productList_time_child">4期</div>
+            <div class="productList_time_child">6期</div>
+            <div class="productList_time_child">8期</div>
+            <div class="productList_time_child">10期</div>
+            <div class="productList_time_child">12期</div>
+            <div class="productList_time_child">24期</div>
+            <div class="productList_time_child">36期</div>
+          </div>
+          <div class="productList_lists">
+              <div class="productList_list" ng-repeat="item in items" ng-click="goDetails(type,id)">
+                  <div class="productList_squre">
+                    <img ng-src="{{item.mainimage}}"  class="productLis_bank">
+                  </div>
+                  <div class="productList_list_right" >
+                      <div class="productList_list_right_top">{{item.productName}}</div>
+                      <div class="productList_list_right_bottom">
+                          <div class="productList_list_right_bottom_left">{{item.saledcount}}人申请</div>
+                          <div class="productList_list_right_bottom_right"><label style="color:orange">{{item.minRate}}</label>月费率</div>
+                      </div>
+                  </div>
+              </div>
+               <div class="productList_list">
+                  <div class="productList_squre">
+                    <img ng-src="{{'icon-card'| img_url}}" class="productLis_bank">
+                  </div>
+                  <div class="productList_list_right">
+                      <div class="productList_list_right_top"></div>
+                      <div class="productList_list_right_bottom">
+                          <div class="productList_list_right_bottom_left">人申请</div>
+                          <div class="productList_list_right_bottom_right"><label style="color:orange"></label>月费率</div>
+                      </div>
+                  </div>
+              </div>
+               <div class="productList_list">
+                  <div class="productList_squre">
+                    <img ng-src="{{'icon-card'| img_url}}" class="productLis_bank">
+                  </div>
+                  <div class="productList_list_right">
+                      <div class="productList_list_right_top"></div>
+                      <div class="productList_list_right_bottom">
+                          <div class="productList_list_right_bottom_left">人申请</div>
+                          <div class="productList_list_right_bottom_right"><label style="color:orange"></label>月费率</div>
+                      </div>
+                  </div>
+              </div>
+               <div class="productList_list">
+                  <div class="productList_squre">
+                    <img ng-src="{{'icon-card'| img_url}}" class="productLis_bank">
+                  </div>
+                  <div class="productList_list_right">
+                      <div class="productList_list_right_top"></div>
+                      <div class="productList_list_right_bottom">
+                          <div class="productList_list_right_bottom_left">人申请</div>
+                          <div class="productList_list_right_bottom_right"><label style="color:orange"></label>月费率</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="productList_list">
+                  <div class="productList_squre">
+                    <img ng-src="{{'icon-card'| img_url}}" class="productLis_bank"  >
+                  </div>
+                  <div class="productList_list_right">
+                      <div class="productList_list_right_top"></div>
+                      <div class="productList_list_right_bottom">
+                          <div class="productList_list_right_bottom_left">人申请</div>
+                          <div class="productList_list_right_bottom_right"><label style="color:orange"></label>月费率</div>
+                      </div>
+                  </div>
+              </div>
+                <div class="productList_list">
+                  <div class="productList_squre">
+                    <img ng-src="{{'icon-card'| img_url}}" class="productLis_bank"  >
+                  </div>
+                  <div class="productList_list_right">
+                      <div class="productList_list_right_top"></div>
+                      <div class="productList_list_right_bottom">
+                          <div class="productList_list_right_bottom_left">人申请</div>
+                          <div class="productList_list_right_bottom_right"><label style="color:orange"></label>月费率</div>
+                      </div>
+                  </div>
+              </div>
+                <div class="productList_list">
+                  <div class="productList_squre">
+                    <img ng-src="{{'icon-card'| img_url}}" class="productLis_bank"  >
+                  </div>
+                  <div class="productList_list_right">
+                      <div class="productList_list_right_top"></div>
+                      <div class="productList_list_right_bottom">
+                          <div class="productList_list_right_bottom_left">人申请</div>
+                          <div class="productList_list_right_bottom_right"><label style="color:orange"></label>月费率</div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

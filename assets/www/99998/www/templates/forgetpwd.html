@@ -1,0 +1,42 @@
+<!-- 标题 -->
+<ion-view view-title="重置密码" class="products" hide-back-button="true">
+    <!-- 自定义返回键 -->
+    <!--<smpos-back back-type=1></smpos-back>-->
+    <ion-nav-buttons side="left">
+        <button class="button" ng-click="back()">
+            <span class="back_img"></span>
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <!-- <button class="button groupBuyCheck_button title_right_button" ng-click="groupBuyCheck_show()">
+            <img ng-src="{{'nav-btn-code'| img_url}}" class="groupBuyCheck_path_img">
+        </button> -->
+    </ion-nav-buttons>
+    <ion-content class="bg_353535" scroll="false">
+        <div class="content_scrool">
+            <div class="content">
+                <div id="content">
+                </div>
+                <div class="down_content" style="margin-top:50px">
+                    <div class="content_table">
+                        <input type="text" placeholder="手机号码" class="login_textinput" accept="right" id="phonenumber"
+                               onkeyup="(this.v=function(){this.value=this.value.replace(/[^0-9-]+/,'');}).call(this)"
+                               style="padding-left:5% !important">
+                    </div>
+                    <div class="content_table">
+                        <input type="text" placeholder="验证码" class="register_textinput" id="detrail_address"
+                               style="padding-left:15px !important;text-align:left">
+
+                        <div class="send_button" id="send">
+                            <div class="label_submit">发送验证码</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="submit_button" id="next">
+            <div class="label_submit">下一步</div>
+        </div>
+    </ion-content>
+</ion-view>
+<script src="../js/controllers/forgetpwd.js"></script>

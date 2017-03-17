@@ -1,0 +1,154 @@
+ .productDetail_list{
+	height: 100px;
+	border-bottom: 1px solid;
+	border-color:#bcbcbc;
+	background: #ffffff;
+}
+.productDetail_squre{
+	width:60px;
+	height:60px;
+	background-color: #e4e4e4;
+	margin-top: 20px;
+	float: left;
+	margin-left: 4%;
+}
+.productDetail_list_right{
+	float: left;
+	margin-left: 5%;
+	height: 100px;
+	width: 70%;
+}
+.productDetail_list_right_top{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.productDetail_list_right_bottom{
+	margin-top: 13px;
+	color: #bcbcbc;
+}
+.productDetail_list_right_bottom_left{
+	font-size: 18px;
+	float: left;
+}
+.productDetail_list_right_bottom_right{
+	font-size: 18px;
+	float: right;
+}
+.productDetail_range{
+    color: gray;
+    height: 70px;
+    border-bottom: 1px solid;
+    border-color: #bcbcbc;
+	background: #ffffff;
+}
+.productDetail_range1{
+	float: left;
+	width: 32%;
+	height:100%;
+	text-align: center;
+}
+
+.productDetail_range2{
+	float: left;
+	width: 32%;
+	text-align: center;
+	height: 100%;
+}
+
+.productDetail_range3{
+	float: left;
+	width: 32%;
+	text-align: center;
+    height: 100%;
+}
+.productDetail_statement{
+	border-color: #bcbcbc;
+	margin-top: 15px;
+	background: #ffffff;
+}
+.productDetail_apply{
+	border-color: #bcbcbc;
+	margin-top: 15px;
+	background: #ffffff;
+}
+.productDetail_intro{
+	border-color: #bcbcbc;
+	margin-top: 15px;
+	background: #ffffff;
+}
+
+.productDetail_statement label{
+	float:left;
+
+}
+.productDetail_apply label{
+	float:left;
+ 
+}
+.productDetail_intro label{
+	float:left;	 
+}
+.productDetail_statement input{
+	padding-left: 5%;
+	width: 70%;
+	font-size: 20px;
+}
+.productDetail_apply input{	 
+ 	padding-left: 5%;
+ 	width: 70%;
+ 	font-size: 20px;
+}
+.productDetail_intro input{
+	padding-left: 5%;
+	width: 70%;
+	font-size: 20px;
+}
+.productDetail_footer{
+	height: 60px;
+	width: 100%;
+	bottom: 0px;
+	text-align: center;
+	position: absolute;
+	background: #fe670e;
+	padding-top: 17px;
+	font-size: 22px;
+	color: #ffffff;
+}
+/*申请信息等提示文字的样式*/
+.productDetail_apply_title{
+	color: #072944;
+	margin-left: 5%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*页面中间内容样式*/
+.productDetail_content{
+	background: #eeeeee;
+}
+/*中间参数部分文字样式*/
+.productDetail_range_text{
+	height: 50%;
+	line-height: 35px;
+	color: #9cabb5;
+	font-size: 16px;
+}
+ /*中间参数部分数字样式*/
+.productDetail_range_num{
+	height: 50%;
+	line-height: 30px;
+	color: #fe670e;
+	font-size: 14px;
+}
+ /*申请信息等具体内容的样式*/
+.productDetail_apply_content{
+	padding-left: 5%;
+	border-top: 1px solid #eeeeee;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	color: #697d91;
+	line-height: 1.6;
+}
+  

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="../../bower_components/ionic/release/css/ionic.css" rel="stylesheet">
+    <link href="../../bower_components/angularjs-toaster/toaster.css" rel="stylesheet">
+
+    <link href="css/theme.css" rel="stylesheet">
+    <!-- <link href="css/consume.css" rel="stylesheet">-->
+    <!--公用样式-->
+    <link href="css/style.css" rel="stylesheet">
+    <!--登录样式-->
+    <link href="css/login.css" rel="stylesheet">
+    <!--弹窗样式-->
+    <link href="css/rewrite.css" rel="stylesheet">
+    <!-- 注册样式 -->
+    <link href="css/register.css" rel="stylesheet">
+    <!--首页样式-->
+    <link href="css/firstpage.css" rel="stylesheet">
+    <!--产品列表-->
+    <link href="css/productList.css" rel="stylesheet">
+    <!--产品详情-->
+    <link href="css/productDetail.css" rel="stylesheet">
+    <!--信用卡列表样式-->
+    <link href="css/listview.css" rel="stylesheet">
+    <!--信用卡申请样式-->
+    <link href="css/cardApply.css" rel="stylesheet">
+    <!-- 登录样式 -->
+    <link href="css/loginp.css" rel="stylesheet">
+    <!-- 注册样式 -->
+    <link href="css/registerp.css" rel="stylesheet">
+    <!-- 密码错误样式 -->
+    <link href="css/pwder.css" rel="stylesheet">
+    <!-- 修改密码样式 -->
+    <link href="css/seek.css" rel="stylesheet">
+    <!-- 个人资料 -->
+    <link rel="stylesheet" href="css/personaldata.css">
+    <!-- 客户详情页 -->
+    <link rel="stylesheet" href="css/clientele.css">
+    <!-- 个人资料 -->
+    <link rel="stylesheet" href="css/perdata.css">
+
+    <link rel="stylesheet" href="css/loginpage.css">
+    <!-- 账号信息 -->
+    <link rel="stylesheet" href="css/countMsg.css">
+    <!-- 设置 -->
+    <link rel="stylesheet" href="css/set.css">
+    <!-- 我的申请记录 -->
+    <link rel="stylesheet" href="css/applicationsRecord.css">
+
+    <!-- 项目详情页 -->
+    <link rel="stylesheet" href="css/projectdetails.css">
+    <!-- 申请记录 -->
+    <link rel="stylesheet" href="css/apply.css">
+   
+    <link rel="stylesheet" href="css/LArea.css">
+
+
+    <!-- 个人中心 -->
+    <link rel="stylesheet" href="css/personnalcenter.css">
+    <!-- ionic/angularjs js -->
+    <script src="../../bower_components/ionic/release/js/ionic.bundle.js"></script>
+    <script src="../../bower_components/lodash/lodash.js"></script>
+    <script src="../../bower_components/angularjs-toaster/toaster.js"></script>
+    <script src="../../bower_components/angular-animate/angular-animate.js"></script>
+    <script src="../../bower_components/angular-animate/angular-animate.min.js"></script>
+    <!-- cordova script (this will be a 404 during development) -->
+    <!-- <script src="js/services/ios9-browser-fix.js"></script>-->
+    <script type="text/javascript" src="../../cordova.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/swipe.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/services/ng.lodash.js"></script>
+    <script src="js/services/ngcordova.plugins.jfservice.js"></script>
+    <script src="js/services/services.js"></script>
+    <script src="js/services/angular.easypiechart.js"></script>
+    <script src="js/controllers/hellow.js"></script>
+    <script src="js/controllers/login.js"></script>
+    <script src="js/controllers/register.js"></script>
+    <script src="js/controllers/firstpage.js"></script>
+    <script src="js/controllers/forgetpwd.js"></script>
+    <script src="js/controllers/login_err.js"></script>
+    <script src="js/controllers/productList.js"></script>
+    <script src="js/controllers/productDetail.js"></script>
+    <script src="js/controllers/listview.js"></script>
+    <script src="js/controllers/cardApply.js"></script>
+    <script src="js/controllers/productDetail.js"></script>
+    <script src="js/controllers/loginp.js"></script>
+    <script src="js/controllers/registerp.js"></script>
+    <script src="js/controllers/pwder.js"></script>
+    <script src="js/controllers/seek.js"></script>
+    <script src="js/controllers/personaldata.js"></script>
+    <script src="js/controllers/clientele.js"></script>
+    <script src="js/controllers/perdata.js"></script>
+    <script src="js/controllers/loginpage.js"></script>
+
+    <script src="js/controllers/countMsg.js"></script>
+    <script src="js/controllers/set.js"></script>
+    <script src="js/controllers/applicationsRecord.js"></script>
+    <script src="js/controllers/projectdetails.js"></script>
+
+    <script src="js/controllers/countMsg.js"></script>
+    <script src="js/controllers/set.js"></script>
+    <script src="js/controllers/applicationsRecord.js"></script>
+    <script src="js/controllers/projectdetails.js"></script>
+
+
+    <script src="js/controllers/apply.js"></script>
+    <!-- 个人中心 -->
+    <script src="js/controllers/personnalcenter.js"></script>
+    <!-- 我的申请记录 -->
+    <script src="js/controllers/applyRecord.js"></script>
+
+    <script src="js/LArea.js"></script>
+    <script src="js/LAreaData1.js"></script>
+    <script src="js/LAreaData2.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <script src="js/directive/load.js"></script>
+
+</head>
+
+<body id="app">
+<toaster-container
+        toaster-options="{&apos;time-out&apos;: 3000, &apos;animation-class&apos;: &apos;toast-top-center&apos; ,&apos;limit&apos;:1 }"></toaster-container>
+<ion-nav-bar class="bar-stable">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+</ion-nav-bar>
+<ion-nav-view>
+
+</ion-nav-view>
+<script>
+    function bootstrapAngular() {
+        var app = document.getElementById('app');
+        angular.bootstrap(app, ["cat"]);
+    }
+    function notify2web(args) {
+        var app = document.getElementById('app');
+        angular.element(app).injector().get('$jf').onNotification(args)
+    }
+    document.addEventListener("deviceready", bootstrapAngular, false);
+
+</script>
+
+</body>
+</html>
+ 

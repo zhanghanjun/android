@@ -1,0 +1,35 @@
+.personaldata_content{
+	height: 700px;
+	  width: 100%;
+	  overflow-x: hidden;
+	  overflow-y: auto;
+	  padding-top: 50px;
+}
+
+.personaldata_div{
+	margin-right: 7%;
+	margin-left: 7%;
+	height: 60px;
+	border-bottom: 1px solid #ececec;
+}
+
+.personaldata_inp{
+	/*//style="height:60px;width:200px;font-size:19px;" */
+	height: 55px;
+	width: 100%;
+	font-size: 17px;
+	padding-top: 15px;
+}
+.personaldata_divp{
+	margin-right: 10%;
+	margin-left: 7%;
+	margin-top: 30px;
+	height: 50px;
+	border: 1px solid #ececec;
+	font-size: 19px;
+	color: white;
+	text-align: center;
+	padding-top: 13px;
+	background: #bcbcbc;
+	border-radius: 8px;
+}

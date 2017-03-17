@@ -1,0 +1,106 @@
+.clientele_content{
+	height: 700px;
+	  width: 100%;
+	  overflow-x: hidden;
+	  overflow-y: auto;
+	  padding-top: 35px;
+}
+
+.clientele_name{
+	margin-right: 5%;
+	margin-left: 5%;
+	height :90px;
+	border-bottom: 1px solid #ececec;
+}
+
+.clientele_datatitle{
+	margin-right: 5%;
+	margin-left: 5%;
+	height :40px;
+	border-bottom: 1px solid #ececec;
+	padding-left: 3%;
+	font-size: 17px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.clientele_data{
+	margin-right: 5%;
+	margin-left: 5%;
+	padding-top: 20px;
+	height :250px;
+	border-bottom: 1px solid #ececec;
+}
+.clientele_demand{
+	margin-right: 5%;
+	margin-left: 5%;
+	padding-top: 10px;
+	height :100px;
+	border-bottom: 1px solid #ececec;
+}
+
+.clientele_phone{
+	margin-right: 15%;
+	margin-left: 15%;
+	height :50px;
+	border: 1px solid #ececec;
+	margin-top: 40px;
+	border-radius: 8px;
+	background: #ff0000;
+	text-align: center;
+	padding-top: 12px;
+	color: white;
+
+}
+
+.clientele_name_na{
+	margin-top: 30px;
+	margin-left: 4%;
+	height: 50px;
+	/*border: 1px solid #ececec;*/
+	font-size: 17px;
+	padding-top: 12px;
+	font-weight: bold;
+}
+
+.clientele_name_old{
+	margin-left: 4%;
+	height: 40px;
+
+}
+.clientele_name_old_1{
+	width: 90px;
+}
+.clientele_name_old_2{
+	width: 90px;
+	float: right;
+	margin-right: 155px;
+	font-size: 13px;
+}
+
+.clientele_data_da{
+	height: 35px;
+	color: #808080;
+	font-size: 16px;
+}
+
+.clientele_img{
+	padding-left: 70px;
+	
+	width: 100px;
+	height:35px;
+	float: right;
+}
+.clientele_clientele_data_da_div{
+	width: 200px;
+	height:35px;
+	padding-top: 10px;
+	padding-left: 4%;
+
+}
+.clientele_demand_div{
+	padding-left: 4%;
+	color: #808080;
+	font-size: 14px;
+	margin-top: 10px;
+}

@@ -1,0 +1,164 @@
+<!-- 标题 -->
+
+<ion-view view-title=" " class="" hide-back-button="true">
+
+    <div class="apply_all">
+        <div class="apply_head_left">
+            <img ng-src="{{'nav-btn-backblue'| img_url}}" class="apply_head_left_img">
+        </div>
+        <div class="apply_head">
+            申请信息
+            <!-- <div class="loginp_return">
+                <img src="../../99998/www/img/public/er.png" alt="">
+            </div> -->
+        </div>
+        <div class="apply_head_right">
+            保存
+        </div>
+    </div>
+    <div class="">
+        <div class="apply_content">
+            <div class="apply_tou">
+                <div class="apply_tou_1">
+                    <div class="apply_tou_1_inp">
+                        <input type="text" value='马大侠' style="color:#5c6bc2;">
+                    </div>
+                    <div class="apply_tou_1_div">
+                        真实姓名
+                    </div>
+                </div>
+                <div class="apply_tou_1">
+                    <div class="apply_tou_1_inp">
+                        <input type="text" value='' style="color:#5c6bc2;">
+                    </div>
+                    <div class="apply_tou_1_div">
+                        身份证码
+                    </div>
+                </div>
+                <div class="apply_tou_1">
+                    <div class="apply_tou_1_inp">
+                        <input type="text" value='' style="color:#5c6bc2;" maxlength="11" class="phone">
+                    </div>
+                    <div class="apply_tou_1_div">
+                        手机号
+                    </div>
+                </div>
+            </div>
+            <div class="apply_zh1">
+                <div class="apply_tou_1" id="apply_LArea1">
+                    <div class="apply_img">
+                        <img src="../../99998/www/img/public/btn-list-to.png" alt=""
+                             style="width:10px;height:15px;margin-left:55%;margin-top:5px;">
+                    </div>
+                    <div class="apply_zh1_div">
+                        <input type="text" placeholder="省市区" class="apply_textinput" id="apply_taddress" readonly="true"
+                               name="apply_input_area" value="广东省,深圳市,南山区">
+                        <input id="apply_locationvalue" type="hidden" value="">
+
+                        <div class="locationicon"></div>
+                    </div>
+                    <div class="apply_tou_1_div">
+                        住宅地址
+                    </div>
+                </div>
+                <div class="apply_tou_1">
+                    <input type="text" style="height:42.5px;width:100%;font-size:14px;color:#9cabb5;"
+                           placeholder="详细地址">
+                </div>
+                <div class="apply_tou_1" style="border:none;">
+                    <div class="apply_zh1_inp">
+                        <input type="text" placeholder="用于接收信用卡账单">
+                    </div>
+                    <div class="apply_tou_1_div">
+                        邮箱
+                    </div>
+                </div>
+            </div>
+            <div class="apply_zh2">
+                <div class="apply_zh2_div">
+                    <div class="apply_tou_1_inp">
+                        <input type="text" value=''>
+                    </div>
+                    <div class="apply_tou_1_div">
+                        单位全称
+                    </div>
+                </div>
+                <div class="apply_zh2_div" id="apply_LArea2">
+                    <div class="apply_img">
+                        <img src="../../99998/www/img/public/btn-list-to.png" alt=""
+                             style="width:10px;height:15px;margin-left:55%;margin-top:5px;">
+                    </div>
+                    <div class="apply_zh1_div">
+                        <input type="text" placeholder="省市区" class="apply_textinput" id="apply_taddress1"
+                               readonly="true" name="apply_input_area" value="">
+                        <input id="apply_locationvalue1" type="hidden" value="">
+                    </div>
+                    <div class="apply_tou_1_div">
+                        单位地址
+                    </div>
+                </div>
+                <div class="apply_zh2_div">
+                    <input type="text" style="height:42.5px;width:100%;font-size:14px;color:#9cabb5;"
+                           placeholder="详细地址">
+                </div>
+                <div class="apply_zh2_div">
+                    <div class="apply_tou_1_inp">
+                        <input type="text" value=''>
+                    </div>
+                    <div class="apply_tou_1_div">
+                        固定电话
+                    </div>
+                </div>
+            </div>
+            <div class="apply_zh3">
+                <div class="apply_zh3_div">
+                    <div class="apply_zh3_inp">
+                        <input type="text" value=''>
+                    </div>
+                    <div class="apply_zh3_1_div">
+                        直系亲属关系
+                    </div>
+                </div>
+                <div class="apply_zh3_div">
+                    <div class="apply_zh3_inp">
+                        <input type="text" value='' class="phone" maxlength="11" class="phone"
+                               onkeyup="(this.v=function(){this.value=this.value.replace(/[^0-9-]+/,'');}).call(this)">
+                    </div>
+                    <div class="apply_zh3_1_div">
+                        直系亲属手机号
+                    </div>
+                </div>
+            </div>
+            <div class="apply_foot">
+                <div class="apply_foot_1">
+                    <div class="apply_zh3_inp">
+                        <input type="text" value=''>
+                    </div>
+                    <div class="apply_zh3_1_div">
+                        紧急联系人关系
+                    </div>
+                </div>
+                <div class="apply_foot_1">
+                    <div class="apply_zh3_inp">
+                        <input type="text" value='' class="phone" maxlength="11" class="phone"
+                               onkeyup="(this.v=function(){this.value=this.value.replace(/[^0-9-]+/,'');}).call(this)">
+                    </div>
+                    <div class="apply_zh3_1_div">
+                        紧急联系人手机号
+                    </div>
+                </div>
+                <div class="apply_foot_1">
+                    <div class="apply_zh3_inp">
+                        <input type="text" value=''>
+                    </div>
+                    <div class="apply_zh3_1_div">
+                        紧急联系人姓名
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</ion-view>
+
+  
+ 

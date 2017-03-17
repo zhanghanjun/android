@@ -1,0 +1,29 @@
+<!-- 标题 -->
+<ion-view view-title="信用卡" class="listview_actionbar" hide-back-button="false">
+    <ion-nav-buttons side="right">
+        <img ng-src="{{'icon-area'| img_url}}" class="listview_iron">
+    </ion-nav-buttons>
+    <ion-content class="bg_353535" scroll="false">
+        <!-- 全局 -->
+        <div class="div">
+            <div class="listview_list" >
+                <div ng-repeat="a in cardInfo" ng-click="goDetail(a.id)">
+                    <div class="listview_img">
+                        <img ng-src="{{a.mainimage}}" class="listview_card">
+                    </div>
+                    <div class="listview_list_right">
+                        <div class="listview_list_right_top">{{a.productName}}</div>
+                        <div class="listview_list_right_bottom">
+                            <div class="listview_list_right_bottom_left">{{a.productLabel}}</div>
+                            <div class="listview_list_right_bottom_right">
+                                <div class="listview_color">{{a.saledcount}}人</div>
+                                本月申请
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomBlank"></div>
+        </div>
+    </ion-content>
+</ion-view>

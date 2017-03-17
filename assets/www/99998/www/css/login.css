@@ -1,0 +1,60 @@
+/* Empty. Add your own CSS if you like */
+@charset "UTF-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+/*登录输入框样式*/
+.login_input{
+	font-size: 22px !important;
+	margin-top: 50px;
+	width:200px;
+	background:transparent;
+}  
+.login_textinput{
+	font-size:22px !important;
+	height: 40px;
+	width: 100%;
+	border: none;
+	padding-left:15% !important;
+	text-align:left;
+}
+.usericon{
+	background:url(../img/public/user.png) no-repeat 0 center ;
+    background-size:25px 25px;
+    position: relative;
+    height: 40px;
+    width: 25px;
+    margin-top: -33px;
+    left: 3%;
+}
+.phoneicon{
+	background:url(../img/public/tel.png) no-repeat 0 center ;
+    background-size:25px 25px;
+    position: relative;
+    height: 40px;
+    width: 25px;
+    margin-top: -33px;
+    left: 3%;
+}
+.login_forget{
+	font-size: 14px;
+	text-align:right;
+	/*border-bottom:1px solid;*/
+	margin-left:76%;
+	margin-top: 10px;
+	color: blue;
+	height: 20px;
+}
+.login_error{
+	font-size:19px;
+	margin-left:18%;
+	margin-right: 20%;
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+}
+

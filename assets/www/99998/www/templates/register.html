@@ -1,0 +1,52 @@
+<!-- 标题 -->
+<ion-view view-title="用户注册" class="products" hide-back-button="true" >
+    <!-- 自定义返回键 -->
+    <!--<smpos-back back-type=1></smpos-back>-->
+    <ion-nav-buttons side="left">
+        <button class="button" ng-click="back()">
+            <span class="back_img"></span>
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <!-- <button class="button groupBuyCheck_button title_right_button" ng-click="groupBuyCheck_show()">
+            <img ng-src="{{'nav-btn-code'| img_url}}" class="groupBuyCheck_path_img">
+        </button> -->
+    </ion-nav-buttons>
+    <ion-content class="bg_353535" scroll="false">
+      <div class="content_scrool">
+    <div class="content">
+       <div id="content">
+      </div>
+        <div class="down_content">
+             <div class="content_table">
+                 <input type="text" placeholder="请输入真实姓名" id="username" class="register_textinput" style="border-top-left-radius: 8px;border-top-right-radius: 8px;border: none;">
+                 <div class="register_name">姓名</div>
+             </div>
+             <div class="content_table">
+                <input type="text" placeholder="请输入有效的手机号码" class="register_textinput" accept="right" id="phonenumber" onkeyup="(this.v=function(){this.value=this.value.replace(/[^0-9-]+/,'');}).call(this)"  >
+                <div class="register_name">手机号码</div>
+             </div>
+             <div class="content_table">
+                <input type="text" placeholder="验证码" class="register_textinput" id="detrail_address" style="padding-left:15px !important;text-align:left">
+                <div class="send_button" id="send">
+                    <div class="label_submit">发送验证码</div>
+                </div>
+             </div>
+             <div class="content_table">
+                <input type="password" class="register_textinput" id="detrail_address">
+                <div class="register_name">设定密码</div>
+             </div>
+             <div class="content_table">
+                <input type="password" class="register_textinput" id="detrail_address" style="border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;border: none;">
+                <div class="register_name">重复密码</div>
+             </div>
+        </div>
+        </div>
+    </div>
+    <div class="submit_button" id="submit">
+        <div class="label_submit">提交注册</div>
+    </div>
+    </ion-content>
+
+</ion-view>
+<script src="../js/controllers/register.js"></script>

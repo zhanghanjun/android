@@ -1,0 +1,46 @@
+<ion-content class="bg_353535" scroll="false">
+    <div class="loginpage_content" id="loginpage_content">
+        <div class="addWrap">
+            <div class="swipe" id="mySwipe">
+                <div class="swipe-wrap">
+                    <div ng-repeat="a in banners"><a href="javascript:;"><img class="img-responsive" ng-src="{{a.prepic}}"/></a></div>
+                </div>
+            </div>
+            <ul id="position">
+                <li class="" ng-repeat="a in banners"></li>
+            </ul>
+        </div>
+        <!-- <img ng-src="{{'lunbotu'| img_url}}" class="loginpage_path_img"> -->
+        <div class="loginpage_center">
+            <div class="loginpage_center1" ng-repeat="a in productEntity" ng-click="go(a.linkurl)">
+                <img ng-src="{{'icon-car'| img_url}}" class="loginpage_center_img">
+
+                <div class="loginpage_center_content">{{a.classify}}</div>
+            </div>
+            <div class="loginpage_center1">
+                <img ng-src="{{'icon-card'| img_url}}" class="loginpage_center_img">
+
+                <div class="loginpage_center_content">{{loginpage_center_content}}</div>
+            </div>
+        </div>
+        <div class="loginpage_intro">
+            精品推荐
+        </div>
+        <div class="loginpage_list_content">
+            <div class="loginpage_list" ng-repeat="item in productfineinfodto" ng-click="goDetail(item.type,item.id)">
+                <div class="loginpage_squre">
+                    <img ng-src="{{item.mainimage}}" class="loginpage_list_img">
+                </div>
+                <div class="loginpage_list_right">
+                    <div class="loginpage_list_right_top">{{item.productName}}</div>
+                    <div class="loginpage_list_right_bottom">
+                        <div class="loginpage_list_right_bottom_left">{{item.saledcount}}申请</div>
+                        <div class="loginpage_list_right_bottom_right" ng-if="item.type==2"><label>{{item.minRate}}</label>%月费率</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottomBlank"></div>
+    </div>
+</ion-content>
+ 

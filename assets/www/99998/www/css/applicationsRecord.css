@@ -1,0 +1,124 @@
+.applicationsRecord_path_img{
+	width: 10px;
+	height: 18px;
+	margin-top: 8px;
+	margin-left: 12px;
+}
+.applicationsRecord_position{
+	margin-top: 7px;
+	font-size: 18px;
+	margin-right: 5px;
+}
+.applicationsRecord_div{
+	height:100%;
+	overflow: hidden;
+	width: 100%;
+	background: #EDF2F6;
+}
+.applicationsRecord_div_2{
+	 white-space: nowrap; height: 144px; clear: both;
+	 
+	 height:100%;
+}
+.applicationsRecord_hide{
+	width: 100%;
+	height: 35px;
+	background: #FEFBDC;
+	overflow:hidden;
+}
+.applicationsRecord_hide_img{
+	height:30px;
+	width: 20px;
+	float: left;
+}
+.applicationsRecord_hide_img_{
+	height: 18px;
+	width: 15px;
+	margin-top: 8px;
+	margin-left: 16px;
+}
+.applicationsRecord_text{
+  color: #9CA2A7;	
+  height: 20px;
+  margin-left: 12%;
+  margin-top: 7px;
+}
+.applicationsRecord_record{
+	margin-top: 12px;
+	width: 100%;
+    background: #fff;
+    height: 105px;
+    overflow: hidden;
+    float: left;
+}
+.applicationsRecord_aa{
+   height: 51px;
+   width: 100%;
+   overflow: hidden;
+}
+.applicationsRecord_record_iron{
+	 width: 35px;      
+	 height: 35px;   
+	 margin-top: 15px;
+	 margin-left: 5%; 
+	 background-color:#ccc;      
+	 border-radius: 50%;      
+	 -moz-border-radius: 50%;      
+	 -webkit-border-radius: 50%;
+	 writing-mode: tb-rl; 
+	 float: left;
+}
+.applicationsRecord_record_ironer{	
+	width: 35px;      
+	height: 35px;  
+	border-radius: 50%;      
+	 -moz-border-radius: 50%;      
+	 -webkit-border-radius: 50%;
+}
+.applicationsRecord_boder{
+	background: rgba(225, 234, 240, 0.33);
+	height: 1px;
+	margin-top: 8px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.applicationsRecord_record_name{
+	margin-top: 22px;
+	margin-left: 10px;
+	float: left;
+}
+.applicationsRecord_record_date{
+	margin-top: 22px;
+	width: 17%;
+	margin-left: 33%;
+	float: left;
+}
+.applicationsRecord_record_approval{
+	margin-top: 22px;
+	color: #FEA377;
+}
+.applicationsRecord_bb{
+overflow: hidden;
+}
+.applicationsRecord_money{
+	float: left;
+	width: 35%;
+	margin-top: 10px;
+	margin-left: 5%;
+}
+.applicationsRecord_term{
+	margin-top: 10px;
+}
+.applicationsRecord_delete{
+	height: 108px;
+  	text-align: center;
+  	color: #fff;
+  	width: 25%;
+}
+.applicationsRecord_delete button{
+	width: 100%; height: 100% ;
+	background: #ffcb20;
+	font-size: 18px;
+	margin-top: 11px;
+	color: #fff;
+}

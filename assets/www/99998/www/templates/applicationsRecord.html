@@ -1,0 +1,86 @@
+<!-- 标题 -->
+<ion-view view-title="我的申请记录" class="products" hide-back-button="true" >
+<!-- 头部左边 -->
+<ion-nav-buttons side="left">
+     <img ng-src="{{'nav-btn-backblue'| img_url}}" class="applicationsRecord_path_img">
+</ion-nav-buttons>
+<!-- 头部右边 -->
+<ion-nav-buttons side="right">
+    <!-- 编辑 -->
+    <span class="applicationsRecord_position" ng-click="aa()" ng-bind="position"></span>
+</ion-nav-buttons>
+<ion-content class="bg_353535" scroll="false">
+<!-- 全局div -->  
+<div class="applicationsRecord_div">
+    <!-- 隐藏块 -->
+    <div class="applicationsRecord_hide">
+        <!-- 隐藏块图片 -->
+        <div class="applicationsRecord_hide_img">
+           <img ng-src="{{'icon-remind'| img_url}}" class="applicationsRecord_hide_img_">
+        </div>
+        <!-- 隐藏块文字 -->
+        <div class="applicationsRecord_text">您申请了一个贷款</div>
+    </div>
+    <!-- 滚动条div -->
+    <div class="applicationsRecord_div_2">
+        <!-- 申请记录item -->
+        <div class="applicationsRecord_div_recordItem">
+            <!-- 申请记录 -->
+            <div class="applicationsRecord_record" >
+                <div class="applicationsRecord_aa">
+                    <!-- 头像 -->
+                    <div class="applicationsRecord_record_iron">
+                        <img ng-src="{{'2'| img_url}}" class="applicationsRecord_record_ironer">
+                    </div>
+                    <!-- 名字 -->
+                    <div class="applicationsRecord_record_name">车主贷</div>
+                    <!-- 日期 -->
+                    <div class="applicationsRecord_record_date">2017.3.8</div>
+                    <!-- 审批 -->
+                    <div class="applicationsRecord_record_approval">审核未通过</div>
+                </div>
+                <!-- 边线 -->
+                <div class="applicationsRecord_boder"></div>
+                <div class="applicationsRecord_bb">
+                    <!-- 金额 -->
+                    <div class="applicationsRecord_money">金额：10.00万元</div>
+                    <!-- 期限 -->
+                    <div class="applicationsRecord_term">期限：12个月</div>
+                </div>
+            </div>
+    <div class="applicationsRecord_delete"><button class="applicationsRecord_button_remove">删除</button></div>
+    </div>
+    <!-- 第二个item -->
+     <!-- 滚动条div -->
+    <div class="applicationsRecord_div_2">
+        <!-- 申请记录item -->
+        <div class="applicationsRecord_div_recordItem">
+            <!-- 申请记录 -->
+            <div class="applicationsRecord_record" >
+                <div class="applicationsRecord_aa">
+                    <!-- 头像 -->
+                    <div class="applicationsRecord_record_iron">
+                        <img ng-src="{{'2'| img_url}}" class="applicationsRecord_record_ironer">
+                    </div>
+                    <!-- 名字 -->
+                    <div class="applicationsRecord_record_name">车主贷</div>
+                    <!-- 日期 -->
+                    <div class="applicationsRecord_record_date">2017.3.8</div>
+                    <!-- 审批 -->
+                    <div class="applicationsRecord_record_approval">审核未通过</div>
+                </div>
+                <!-- 边线 -->
+                <div class="applicationsRecord_boder"></div>
+                <div class="applicationsRecord_bb">
+                    <!-- 金额 -->
+                    <div class="applicationsRecord_money">金额：10.00万元</div>
+                    <!-- 期限 -->
+                    <div class="applicationsRecord_term">期限：12个月</div>
+                </div>
+            </div>
+        <div class="applicationsRecord_delete"><button class="applicationsRecord_button_remove">删除</button></div>
+        </div>
+    </div>
+</div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,326 @@
+/* Empty. Add your own CSS if you like */
+@charset "UTF-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+/* 背景黑色 */
+.bg_black{background:#303030;}
+/* 背景蓝色 */
+.bg_blue{background:#50acf2;}
+/* 背景绿色 */
+.bg_green{background:#83d654;}
+/* 背景橙色 */
+.bg_orange{background:#f19a37;}
+/* 背景灰色 */
+.bg_gray{background:#ececec;}
+/* 背景白色 */
+.bg_white{background:#ffffff;}
+
+.center{text-align: center;}
+
+/* 标题字体
+.title_f{font-family:STHeitiSC-Medium;font-size:20px;color:#ffffff;line-height:28px;}
+标题部
+.title{background-color:transparent; box-shadow:0px 0px 4px 0px rgba(0,0,0,0.12), 0px 4px 4px 0px rgba(0,0,0,0.24);height:56px;line-height: 56px;text-align: center;border: none;}
+ */
+
+/* 小标题 字体颜色黑(淡) */
+.title_1{/*font-family:STHeitiSC-Light;*/font-size:16px;color:rgba(0,0,0,0.87);line-height:24px;}
+/* 小标题内容 字体颜色黑(淡) */
+.titlec_1{font-family:LucidaGrande;font-size:16px;color:rgba(0,0,0,0.87);line-height:24px;}
+/* 文本域DIV */
+.inputDiv{background:#f6f7f8;height:40px;line-height: 40px;}
+/* 文本域左侧标题 */
+.input_title{font-family:PingFang-SC-Light;font-size:14px;color:#000000;text-align:left;float: left;margin-left: 10px;margin-right: 10px;}
+/* 文本域右侧内容 */
+.input_label{font-family:PingFang-SC-Light;font-size:14px;color:#7f898d;text-align:left;}
+
+/* 人民币符号 */
+.fn_yuan{font-family:LucidaGrande;font-size:32px;color:#000000;}
+/* 大字体金额 */
+.fns_amonut_60{font-family:Roboto-Regular;font-size:60px;color:#000000;}
+/* 注释文 */
+.fn_ex{f/*ont-family:STHeitiSC-Light;*/font-size:16px;color:#000000;line-height:24px;}
+/* 蓝色注释文 */
+.fn_blue_ex{/*font-family:STHeitiSC-Light;*/font-size:16px;color:#50acf2;line-height:24px;}
+/* 白色注释文 */
+.fn_white_ex{font-family:PingFang-SC-Medium;font-size:18px;color:#ffffff;text-align:left;}
+/* 灰色注释文 */
+.fn_gray_ex{font-family:PingFang-SC-Light;font-size:18px;color:#7f898d;text-align:left;}
+
+/* 小键盘数字 */
+.fn_keynum{font-family:Roboto-Regular;font-size:36px;color:#000000;}
+/* 小键盘数字块 */
+.keyblock{background:#ffffff;height:83px;}
+/* 小键盘输入表达式 */
+.keyexpression{opacity:0.6;font-family:Roboto-Regular;font-size:20px;color:#ffffff;}
+.songti{font-family: ;}
+
+/* 主体内容距左 */
+.bd_pad_left{padding-left: 19px;}
+
+/* 分割线(div) */
+.line{border:1px solid #98a5bc;height:2px;width:auto;margin-left:22px;margin-right: 22px;}
+
+/* 遮罩 */
+.mask{opacity:0.72;background:#303030;box-shadow:0px 1px 0px 0px rgba(229,229,229,0.50);width:100%;height:100%;}
+.shade_div{opacity: 0.6;border:0px solid;border-color:#009900;line-height:600px;width:100%;text-align:center;margin:0;position:absolute;top:0;left:0;background: white; display: none;}
+.shade_div b{vertical-align:middle;background:url(../img/public/load.gif) no-repeat 0 center;padding-left:35px;display:inline-block;}
+.shade_div1{z-index:1000;border:0px solid;visibility: visible;border-color:#009900;height:2000px;line-height:600px;width:100%;text-align:center;margin:0;position:absolute;margin-top: -200px;top:0;left:0;background:#303030;opacity: 0.73;display: none; } 
+.longshadow{/*z-index:998;*/border:0px solid;visibility: visible;border-color:#009900;height:2000px;line-height:600px;width:100%;text-align:center;margin:0;position:absolute;margin-top: -200px;top:0;left:0;background:black;opacity: 0.1;display: none; } 
+/* 弹出确认框 */
+.confirm{width:auto;position:absolute;margin-left: 46px;margin-right: 44px;margin-top: 270px;background:#ffffff;border-radius:8px;width:270px;height:150px;}
+/* 弹出框 */
+.alert{width:auto;position:absolute;margin-left:75px;margin-right:75px;margin-top:321px;background:#000000;border-radius:10px;width:210px;height:92px;line-height:92px;text-align: center;}
+
+/* 字体黑 */
+.fn_black{color:#000000;}
+/* 字体白 */
+.fn_white{color:#ffffff;}
+/* 字体红 */
+.fn_red{color:#db4437;}
+/* 字体蓝 */
+.fn_blue{color:#50acf2;}
+/* 字体灰 */
+.fn_gray{color:#7f898d}
+/* 字体12px */
+.fns_12{font-size: 12px;}
+/* 字体14px */
+.fns_14{font-size: 14px;}
+/* 字体15px */
+.fns_15{font-size: 15px;}
+/* 字体16px */
+.fns_16{font-size: 16px;}
+/* 字体17px */
+.fns_17{font-size: 17px;}
+/* 字体18px */
+.fns_18{font-size: 18px;}
+/* 字体20px */
+.fns_20{font-size: 20px;}
+/* 字体30px */
+.fns_30{font-size: 30px;}
+
+/* 字体STHeitiSC-Light */
+.fnf_SL{font-family:STHeitiSC-Light;}
+/* 字体PingFang-SC-Light */
+.fnf_PSL{font-family:PingFang-SC-Light;}
+/*字体大小*/
+.font_large{font-size:20px;}
+
+.fnf-st{font-family: \5b8b\4f53;color:#e7e7e7;}
+
+/* 字体Roboto-Regular */
+@font-face {
+	font-family: 'Roboto-Regular';
+	src:url('../fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'DroidSansFallback';
+	src:url('../fonts/DroidSansFallback.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.Roboto-Regular{font-family: 'Roboto-Regular';}
+
+/* 按钮 */
+/* 按钮(灰) */
+.btn_gray{background:#ececec;color:#7f898d;}
+/* 按钮(蓝) */
+.btn_blue{background:#50acf2;color:#ffffff;}
+/*.btn_blue.activated {background: #6db5ec;}*/
+.btn_blue {
+	background-color:#50acf2;
+	color:#ffffff;
+	padding:10px;
+	padding-top: 0;
+	position:relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+}
+.btn_white{
+	background-color:white;
+	color:gray;
+	padding:10px;
+	padding-top: 0;
+	position:relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+}
+/*.btn_blue::before {
+	background-color:#50acf2;
+	content:"";
+	display:block;
+	position:absolute;
+	width:100%;
+	height:100%;
+	padding:8px;
+	padding-top:0;
+	left:-8px;
+	top:-8px;
+	z-index:-1;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+	-moz-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+	-o-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+	box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+}*/
+.btn_blue:active,.btn_blue.activated {
+	background-color:#4a90e2;
+}
+.btn{border-radius:30px;width:auto;height:48px;line-height:48px;margin-left:35px;margin-right: 39px;text-align: center;font-size:20px;}
+/*输入密码的样式*/
+.cardinfo_password{
+	background: #f6f7f8;
+	border:1px #CCCCCC solid;
+	margin-top: -35px;
+	readonly:expression(this.readOnly=false); 
+	}	
+#card_password{
+	/*font-family:STHeitiSC-Light;*/
+	font-size:40px;
+	width: 100%;
+	text-align: center;
+	}
+
+/* 提示扫码支付输入密码的字体样式 */
+.passwordinfo1{
+	/*font-family:STHeitiSC-Light;*/
+	font-size:16px;
+	color:#50acf2;
+	line-height:24px;
+	padding-top: 40px;
+	}
+/*隐藏在底部的密码 */
+.password_hide{
+ opacity: 0;
+}
+/*弹出框的样式*/
+.pop-div{
+	font-family:PingFang-SC-Light;
+    font-size:18px;
+    color:#000000;
+    text-align:center;
+	}
+/*付款类型的字体样式*/
+.simble {
+    /* font-family: LucidaGrande; */
+    font-size: 32px;
+    color: #000000;
+    float: left;
+    padding-top: 2px;
+    margin-bottom: 0px;
+    margin-right: 3px;
+}
+ 
+/*付款金额的字体样式*/
+.much_money_div{
+	margin-top: 25px;
+	font-family:Roboto-Regular;
+	font-size:60px;
+	color:#000000;
+	text-align:justify;
+	padding-top: 5px;
+	}
+/* 提示刷卡支付输入密码的字体样式 */
+.password_info_tip{
+	/*font-family:STHeitiSC-Light;*/
+	font-size:16px;
+	color:#50acf2;
+	line-height:24px;
+	padding-top: 20px;
+	}
+
+/* 支付密码模块样式 */
+.enter_password{
+	border: 1px solid;
+	background:#f6f7f8;
+    height: 71px;
+    text-align:center;
+    padding-top: 22px;
+    padding-right: 6.1%;
+    padding-left: 6.1%;
+    border-color:#a2adc2;
+    border-left: none;
+    border-right:none; 
+    }
+/*密码下方的下划线样式*/
+.hr_style_password{
+	background:#a2adc2;
+	width:auto;
+	margin-top: 10px;
+	}
+/*字体大小*/
+.font_large{
+	font-size:20px;
+	}
+/*日历图的样式*/
+.r3_img{
+    width:11px;
+    height:11px;
+    margin-left: 12px;
+  }
+  /*画布支付方式图*/
+.r5_img{
+    width:11px;
+    height:11px;
+    margin-right: 12px;
+  }
+.r4_img{
+    width:11px;
+    height:11px;
+    margin-left: 12px;
+    vertical-align:middle;
+   }
+.rd_img{
+    margin-top: 12px;
+}
+/*钱数的字体样式*/
+#muchmoney{
+    font-family:Roboto-Regular;
+    color:#ffffff;
+    text-align:justify;
+}
+ 
+
+/* 软键盘定位 */
+#keyboardDiv{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	border-top: 1px solid #a3aec3;
+}
+/* 更多功能的图标的样式 */
+.gath_path_img{
+    width: 25px;
+    height: 30px;
+}
+
+/* 返回键按钮样式 */
+.back_img{
+	background:url(../img/public/oposition.png);
+	width: 25px;
+	height: 30px;
+	background-repeat:round;
+}
+.title_right_button{
+	position: absolute;
+	right: 0px;
+	top: -1px;
+}
+/*一级页面底部留导航栏空白*/
+.bottomBlank{
+	height: 49px;
+}
+/*隐藏域*/
+.hideSpan{
+	display: none;
+}

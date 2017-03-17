@@ -1,0 +1,172 @@
+
+.loginp_content{
+	width: 100%;
+	overflow-x: hidden;
+    overflow-y: auto;
+    height: 600px;
+    padding-top: 70px;
+}
+
+.loginp_phone_pwd{
+	width: 290px;
+	height: 50px;
+	margin-right: 7%;
+	margin-left: 7%;
+	margin:0 auto;
+	padding-top:0px;
+	padding-right: 30px;
+	/*border-top: 1px solid #ececec;*/
+	border-bottom: 1px solid #ececec;
+
+
+
+}
+.loginp_phone_pwd1{
+	width: 290px;
+	height: 50px;
+	margin:0 auto;
+	padding-top:0px;
+	/*padding-right: 30px;*/
+	/*border-top: 1px solid #ececec;*/
+	border-bottom: 1px solid #ececec;
+
+
+
+}
+
+.loginp_dd{
+	width: 280px;
+	height: 30px;
+	margin:0 auto;
+	/*border:1px solid #000;*/
+	text-align:right;
+	padding-right: 5px;
+	padding-top: 2px;
+	font-family: FangSong ;
+	color: ##00FA9A;
+
+}
+
+.loginp_log_re{
+	margin-right: 8%;
+	margin-left: 8%;
+	margin-top: 60px;
+	height: 45px;
+	color: #ffffff;
+ 	background: #fe670e;
+	text-align: center;
+	line-height: 2;
+	border-radius: 8px;
+	font-size: 17px;
+	padding-top: 8px;
+}
+.loginp_img{
+	width: 30px;
+	height: 30px;
+	display:inline-table;
+	float: left;
+}
+.loginp_inp{
+	font-size:22px;
+	
+}
+#loginp_bo{
+	width: 280px;
+	height: 60px;
+	text-align:center;
+	background:#ececec;
+	font-family: ;
+	font-size: 20px;
+	border-radius:4px;
+	
+}
+.loginp_hr{
+	margin-left: 12%;
+	margin-right: 12%;
+	margin-bottom: 10px;
+}
+.loginp_div_img{
+	width: 50px;
+	height: 50px;
+	display:inline-table;
+	float: left;
+	padding-top: 15px;
+}
+
+.loginp_foot{
+	margin-right: 8%;
+	margin-left: 8%;
+	margin-top: 17px;
+	height: 45px;
+	/*border: 1px solid #ececce;*/
+
+ 	
+}
+.loginp_foot_1{
+	width: 100px;
+	height: 20px;
+	float: right;
+	color:#5c6bc2;
+	padding-left: 38px;
+	font-size: 14px;
+
+}
+.loginp_foot_2{
+	width: 100px;
+	height: 20px;
+	color:#5c6bc2;
+	font-size: 14px;
+
+
+}
+.loginp_yan{
+	width: 30px;
+	height: 30px;
+	/*border: 1px solid #ececce;*/
+	float: right;
+	margin-top: 10px;
+	padding-right: 5px;
+	padding-top: 15px;
+}
+
+.loginp_head{
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	line-height: 3;
+	background: white;
+	position: fixed;
+	top: 0px;
+	padding-bottom: 50px;
+	 
+}
+.loginp_return{
+	width: 30px;
+	height: 30px;
+	/*border: 1px solid #ececce;*/
+	position: fixed; 
+	top :10px;
+	right: 20px;
+	
+}
+/*登录失败提示信息*/
+.loginp_message_info{
+	height:50px;
+	width:260px;
+	float:right;
+	font-size:16px;
+	font-family: FangSong ;
+	padding-top:5px;
+	color:red;
+}
+/*登录失败提示图标*/
+.loginp_message_img{
+	height:20px;
+	width:20px;
+	margin-top: 5px;
+}
+/*img{
+	width:20px;
+	height:20px
+}*/
