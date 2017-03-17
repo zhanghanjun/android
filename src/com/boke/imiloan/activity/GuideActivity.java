@@ -25,6 +25,7 @@ public class GuideActivity extends Activity {
     //存放资源
     private List<Integer> imageResList;
     private List<ImageView> imageViewList;
+    private int i=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
