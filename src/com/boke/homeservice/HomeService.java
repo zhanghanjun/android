@@ -33,7 +33,7 @@ public class HomeService extends CordovaPlugin {
 	CallbackContext callbackContext;
 	private static final String TAG = HomeService.class.getSimpleName();
     private HomePresenter homePresenter;
-	private int i;
+	private int i=1;
 
 	public void initialize(CordovaInterface cordova, CordovaWebView webView) {
 		super.initialize(cordova, webView);
